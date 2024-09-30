@@ -1,0 +1,173 @@
+body {
+    background-color: hsl(0, 0%, 20%);
+    padding: 0;
+    margin: 0;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    background-color: hsl(0, 0%, 5%);
+    color: whitesmoke;
+    padding: 0;
+    margin: 0;
+    flex-wrap: wrap; 
+}
+
+a {
+    text-decoration: none;
+    color: whitesmoke;
+    font-size: 2em;
+    margin-right: 20px;
+    font-size: 1.2rem;
+}
+
+#navTitle {
+    font-size: 3rem;
+    padding: 20px;
+    margin: 0;
+}
+
+.toDoItems {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    margin: 0;
+    position: relative;
+    padding: 20px;
+}
+
+h1 {
+    font-size: 2.5rem; 
+    color: whitesmoke;
+    margin-bottom: 20px;
+}
+
+button {
+    font-size: 1.2rem; 
+    font-weight: bold;
+    padding: 10px 20px;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    transition: background-color 0.5s ease;
+}
+
+button:focus {
+    outline: none;
+}
+
+.add-btn {
+    background-color: hsl(120, 100%, 50%);
+    margin: 10px;
+}
+
+.add-btn:hover {
+    background-color: hsl(120, 100%, 40%);
+}
+
+.filter-btn {
+    background-color: hsl(195, 53%, 79%);
+    margin: 5px;
+}
+
+.filter-btn:hover {
+    background-color: hsl(195, 53%, 65%);
+}
+
+.del-btn {
+    background-color: hsl(0, 100%, 65%);
+}
+
+.del-btn:hover {
+    background-color: hsl(0, 100%, 50%);
+}
+
+.comp-btn {
+    background-color: hsl(195, 53%, 79%);
+}
+
+.comp-btn:hover {
+    background-color: hsl(195, 53%, 65%);
+}
+
+.del-btn, .comp-btn {
+    margin-left: 10px;
+}
+
+input {
+    font-size: 1.2rem;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-align: center;
+    width: 75%;
+    box-sizing: border-box;
+}
+
+li {
+    display: flex;
+    text-align: left;
+    padding: 10px;
+    margin: 10px auto;
+    background-color: hsl(0, 0%, 90%);
+    border-radius: 5px;
+    max-width: 75%;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.text {
+    font-size: 1.5em;
+    padding: 10px;
+    flex: 1;
+}
+
+ol {
+    padding: 0;
+    list-style-type: none;
+}
+
+@media (min-width: 768px) {
+    #navTitle {
+        font-size: 4rem;
+    }
+    
+    a {
+        font-size: 1.5rem;
+    }
+
+    h1 {
+        font-size: 3rem;
+    }
+
+    button {
+        font-size: 1.3rem;
+    }
+
+    li {
+        max-width: 60%;
+    }
+}
+
+@media (min-width: 1024px) {
+    #navTitle {
+        font-size: 4.5rem;
+    }
+
+    h1 {
+        font-size: 3.5rem;
+    }
+
+    a {
+        font-size: 1.8rem;
+    }
+
+    li {
+        max-width: 50%;
+    }
+
+    button {
+        font-size: 1.5rem;
+    }
+}
