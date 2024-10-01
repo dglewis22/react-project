@@ -1,6 +1,6 @@
 # Damon Lewis
 
-## About Project
+## About Project (Code for app is in SRC folder!)
 * Basic To Do list or event tracker.
 * Can delete, and markout completed or unwanted tasks.
 * Contains styling to fit different screen sizes, and a todo form through JSX.
