@@ -15,7 +15,7 @@ function ToDoForm() {
     }
 
     function addTask() {
-        if (newTask !== "") {
+        if (newTask.trim() !== "") {
             setTasks(tasks => [...tasks, { text: newTask, completed: false }]);
             setNewTask("");
         }
