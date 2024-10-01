@@ -1,4 +1,4 @@
-# Damon Lewis
+# Damon Lewis 
 
 ## About Project (Code for app is in SRC folder!)
 * Basic To Do list or event tracker.
@@ -11,8 +11,7 @@
 * Ability to show all, completed, or uncompleted tasks to remove clutter.
 * Contact Us at top of page so a user can directly email app ownwer or support team. 
 
-## Technologies Used
-* React
+## Technologies Used (app is in github pages)
 * Css
 * Html
 * Jsx/Js
